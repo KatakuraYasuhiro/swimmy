@@ -11,5 +11,6 @@ module Swimmy
     autoload :Anniversary, "#{dir}/anniversary.rb"
     autoload :Recurrence,  "#{dir}/schedule.rb"
     autoload :Occurence,   "#{dir}/schedule.rb"
+    autoload :Restaurant,  "#{dir}/restaurant.rb"
   end
 end

@@ -71,11 +71,11 @@ module Swimmy
 
     MESSAGE_QUEUE = []
     def initialize(opt)
-      if opt[:spreadsheet]
-        Swimmy::Command.spreadsheet =
-          initialize_spreadsheet(opt[:spreadsheet])
-        opt.delete(:spreadsheet)
-      end
+     # if opt[:spreadsheet]
+     #   Swimmy::Command.spreadsheet =
+     #     initialize_spreadsheet(opt[:spreadsheet])
+     #   opt.delete(:spreadsheet)
+     # end
 
       if opt[:hello]
         MESSAGE_QUEUE << opt[:hello]

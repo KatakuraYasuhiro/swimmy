@@ -13,3 +13,5 @@ gem 'sheetq', :git => 'https://github.com/nomlab/sheetq.git'
 gem 'rspec'
 gem 'systemu'
 gem 'enumdate'
+
+gem 'pry'
